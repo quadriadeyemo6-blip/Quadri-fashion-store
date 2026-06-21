@@ -1,0 +1,25 @@
+/* Delivery Form Styling */
+#delivery-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+#delivery-form .form-control:focus {
+  border-color: #bfa14a;
+  box-shadow: 0 0 5px rgba(191, 161, 74, 0.5);
+}
+
+#delivery-form label {
+  font-weight: 600;
+  color: #bfa14a;
+}
+
+#delivery-form h3 {
+  color: #bfa14a;
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}

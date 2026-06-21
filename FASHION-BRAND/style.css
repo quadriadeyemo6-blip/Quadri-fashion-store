@@ -1,0 +1,76 @@
+.hero {
+  background: url("https://via.placeholder.com/1200x400") no-repeat center
+    center/cover;
+}
+.card img {
+  height: 400px;
+  object-fit: cover;
+}
+.btn-outline-dark {
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #bfa14a; /* gold accent */
+  color: #fff;
+  border-color: #bfa14a;
+}
+.btn-outline-dark {
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #bfa14a; /* gold accent */
+  color: #fff;
+  border-color: #bfa14a;
+}
+#cart-count {
+  font-size: 0.8rem;
+  padding: 4px 6px;
+}
+/* Quantity Buttons */
+.btn-outline-secondary {
+  border-radius: 50%; /* circular buttons */
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  font-weight: bold;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: #333;
+  border: 1px solid #bfa14a; /* gold border */
+  transition: all 0.3s ease;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #bfa14a; /* gold hover */
+  color: #fff;
+  transform: scale(1.1);
+}
+
+/* Quantity number styling */
+.checkout-quantity {
+  font-weight: 600;
+  font-size: 1rem;
+  margin: 0 8px;
+}
+/* Remove Button */
+.btn-remove {
+  border: 1px solid #dc3545; /* subtle red outline */
+  color: #dc3545;
+  background-color: transparent;
+  border-radius: 20px;
+  padding: 2px 10px;
+  font-size: 0.85rem;
+  transition: all 0.3s ease;
+}
+
+.btn-remove:hover {
+  background-color: #dc3545; /* red fill on hover */
+  color: #fff;
+  transform: scale(1.05);
+}

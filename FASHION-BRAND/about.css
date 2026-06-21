@@ -1,0 +1,93 @@
+/* General page styling */
+body {
+  font-family: "Playfair Display", serif; /* Elegant serif font */
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* Section headings */
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #bfa14a; /* Gold accent */
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+/* Lead text */
+.lead {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+/* About section image */
+.about img {
+  border: 4px solid #bfa14a;
+  border-radius: 10px;
+}
+
+/* Contact form */
+#contact-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease;
+}
+
+#contact-form .form-control:focus {
+  border-color: #bfa14a;
+  box-shadow: 0 0 5px rgba(191, 161, 74, 0.5);
+}
+
+#contact-form button {
+  background-color: #bfa14a;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #a88c3d;
+}
+
+/* Contact info styling */
+.contact h5 {
+  color: #bfa14a;
+  font-weight: 600;
+}
+.about {
+  background: repeating-linear-gradient(
+    45deg,
+    #fdfdfd,
+    #fdfdfd 20px,
+    #fafafa 20px,
+    #fafafa 40px
+  );
+  padding: 60px 0;
+}
+.about::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(191, 161, 74, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  z-index: -1;
+}
+.about {
+  box-shadow: 0 0 30px rgba(191, 161, 74, 0.1);
+}
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #bfa14a;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

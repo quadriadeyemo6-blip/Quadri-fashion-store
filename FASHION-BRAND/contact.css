@@ -1,0 +1,157 @@
+/* ============================
+   GLOBAL PAGE STYLING
+============================ */
+body {
+  font-family: "Playfair Display", serif;
+  background-color: #fdfdfd;
+  color: #333;
+}
+
+/* ============================
+   HEADINGS
+============================ */
+h2 {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  color: #bfa14a;
+  letter-spacing: 1px;
+  margin-bottom: 1.5rem;
+}
+
+/* ============================
+   CONTACT SECTION
+============================ */
+.contact {
+  position: relative;
+  background: repeating-linear-gradient(
+    45deg,
+    #fdfdfd,
+    #fdfdfd 20px,
+    #fafafa 20px,
+    #fafafa 40px
+  );
+  padding: 60px 0;
+  box-shadow: 0 0 30px rgba(191, 161, 74, 0.1);
+}
+
+.contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    135deg,
+    rgba(191, 161, 74, 0.05),
+    rgba(255, 255, 255, 0.05)
+  );
+  z-index: -1;
+}
+
+/* ============================
+   CONTACT INFO
+============================ */
+.contact h5 {
+  color: #bfa14a;
+  font-weight: 600;
+}
+
+/* ============================
+   CONTACT FORM
+============================ */
+#contact-form .form-control {
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  transition:
+    border-color 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+#contact-form .form-control:focus {
+  border-color: #bfa14a;
+  box-shadow: 0 0 5px rgba(191, 161, 74, 0.5);
+}
+
+#contact-form button {
+  background-color: #bfa14a;
+  border: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+#contact-form button:hover {
+  background-color: #a88c3d;
+}
+
+/* ============================
+   SOCIAL ICONS
+============================ */
+.social-icons a {
+  transition: 0.3s ease;
+  color: #333;
+}
+
+.social-icons a:hover {
+  color: #bfa14a; /* brand gold */
+  transform: scale(1.2);
+}
+
+/* ============================
+   ANIMATIONS
+============================ */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+}
+
+.slide-up {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: slideUp 0.8s forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+/* WhatsApp Floating Button */
+.whatsapp-float {
+  position: fixed;
+  bottom: 25px;
+  right: 25px;
+  background-color: #25d366;
+  color: white;
+  font-size: 28px;
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 999;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+}
+
+.whatsapp-float:hover {
+  transform: scale(1.15);
+  box-shadow: 0 6px 14px rgba(0, 0, 0, 0.4);
+  color: white;
+}
+/* Google Map Styling */
+.map-container {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  margin-bottom: 40px;
+}

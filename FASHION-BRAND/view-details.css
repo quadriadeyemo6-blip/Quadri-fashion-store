@@ -1,0 +1,15 @@
+.btn-outline-dark {
+  border-radius: 25px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.btn-outline-dark:hover {
+  background-color: #bfa14a; /* gold accent */
+  color: #fff;
+  border-color: #bfa14a;
+}
+#cart-count {
+  font-size: 0.8rem;
+  padding: 4px 6px;
+}
